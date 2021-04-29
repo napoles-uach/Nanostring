@@ -66,7 +66,9 @@ if genes:
         gi=st.checkbox('gene importance')
     
     if ts:
-        tsne_genes(dft,df2)
+        xx,yy,cla,nam=tsne_genes(dft,df2)
+        fig = px.scatter(x=xx,y=yy,color=cla,hover_name=nam)
+        st.plotly_chart(fig)
 
     names_list=dft.index.to_list()
 

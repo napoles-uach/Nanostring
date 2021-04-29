@@ -36,11 +36,17 @@ def var(tipo,diagnostico,names_list):
     var_list=df[:].var()
     return var_list
 
+@st.cache(show_spinner=False)
+def calc(dft):
+    tsne = TSNE(random_state=42,early_exaggeration=10)
+    digits_tsne = tsne.fit_transform(dft)
+    return digits_tsne
 
 def tsne_genes(dft,df2):
-    exag = 10# st.sidebar.slider('early_exaggeration', 1, 50, 10)
-    tsne = TSNE(random_state=42,early_exaggeration=exag)
-    digits_tsne = tsne.fit_transform(dft)
+    #exag = 10# st.sidebar.slider('early_exaggeration', 1, 50, 10)
+    #tsne = TSNE(random_state=42,early_exaggeration=exag)
+    #digits_tsne = tsne.fit_transform(dft)
+    digits_tsne =calc(dft)
     #names=pd.read_csv('Kidney_Sample_Annotations.csv')
     names_list=dft.index.to_list()
     Slide_list=df2['SlideName'].to_list()
@@ -61,9 +67,13 @@ def tsne_genes(dft,df2):
               indices.append(i)
 
     #fig = px.scatter(x=digits_tsne[:,0],y=digits_tsne[:,1],color=clase,hover_name=names_list)
-
-        fig = px.scatter(x=digits_tsne[indices[0]:indices[-1],0],y=digits_tsne[indices[0]:indices[-1],1],color=clase[indices[0]:indices[-1]],hover_name=names_list[indices[0]:indices[-1]])
-        st.plotly_chart(fig)
+    xx=digits_tsne[indices[0]:indices[-1],0]
+    yy=digits_tsne[indices[0]:indices[-1],1]
+    cla=clase[indices[0]:indices[-1]]
+    nam=names_list[indices[0]:indices[-1]]
+    return xx,yy,cla,nam
+#        fig = px.scatter(x=digits_tsne[indices[0]:indices[-1],0],y=digits_tsne[indices[0]:indices[-1],1],color=clase[indices[0]:indices[-1]],hover_name=names_list[indices[0]:indices[-1]])
+#        st.plotly_chart(fig)
 
 
 
