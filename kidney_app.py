@@ -81,7 +81,7 @@ if genes:
     if gi:
         with st.beta_expander("See explanation"):
             st.write("""
-            Here we evaluate a measurement of gene expression abnomalies
+            Here we evaluate a measurement of gene expression anomalies
             """)
             st.image('./variation.png')
         tipo_cel = st.selectbox('type',['Geometric Segment','PanCK','neg'])
