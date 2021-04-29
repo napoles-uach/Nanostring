@@ -8,7 +8,7 @@ from sklearn.manifold import TSNE
 
 
 def get_gen(gen,tipo,diagnostico,names_list,total_df,df):
-    st.write('Where is gen ',gen, 'more expressed? 👇')
+    st.write('Where is gene ',gen, 'more expressed? 👇')
     substring=tipo
     res = [i for i in names_list if substring in i]
     substring=diagnostico

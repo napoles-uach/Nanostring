@@ -33,11 +33,11 @@ if (genes==False and scan==False):
     st.header('Presentation')
     '''
     Diabetic Kidney desease is an affection that quenches kidney function and affects people with diabates.
-    The causes of diabetic kidney disease are diverse and complex and gen expression is used to understand this problem.
+    The causes of diabetic kidney disease are diverse and complex and gene expression is used to understand this problem.
 
     This web app allows to see the data provided for the Hackaton. There are two main approaches which 
     you can test by cliking the two options at the side bar.
-    For both cases, gen expression by glomeruli, proximal and distal tubules is used.
+    For both cases, gene expression by glomeruli, proximal and distal tubules is used.
     '''
     st.image('https://upload.wikimedia.org/wikipedia/commons/0/02/Gray1128.png')
     st.write('By Henry Vandyke Carter - Henry Gray (1918) Anatomy of the Human Body (See &quot;Book&quot; section below)Bartleby.com: Gray&#039;s Anatomy, Plate 1128, Public Domain, https://commons.wikimedia.org/w/index.php?curid=567094')
@@ -63,7 +63,7 @@ if genes:
     with genco1:
         ts=st.checkbox('t-SNE')
     with genco2:
-        gi=st.checkbox('gen importance')
+        gi=st.checkbox('gene importance')
     
     if ts:
         tsne_genes(dft,df2)
@@ -81,7 +81,7 @@ if genes:
     if gi:
         with st.beta_expander("See explanation"):
             st.write("""
-            Here we evaluate a measurement of gen expression abnomalies
+            Here we evaluate a measurement of gene expression abnomalies
             """)
             st.image('./variation.png')
         tipo_cel = st.selectbox('type',['Geometric Segment','PanCK','neg'])
@@ -103,7 +103,7 @@ if genes:
 
     #st.write(total_df[:50].index.tolist())
 
-        gen=st.selectbox('Select gen',total_df[:20].index.tolist())
+        gen=st.selectbox('Select gene',total_df[:20].index.tolist())
 
 
 
