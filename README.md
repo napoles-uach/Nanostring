@@ -4,8 +4,10 @@
  # Project for the Nanostring Hackaton
  
  ## How to run this?
- 1) Try the badge above, or
- 2)  
+ Try the badge above, or 
+ ```
+ git clone 
+ ```
  
  
  
