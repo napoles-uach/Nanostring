@@ -4,9 +4,12 @@
  # Project for the Nanostring Hackaton
  
  ## How to run this?
- Try the badge above, or 
+ Try the badge above, or clone this repo and:
  ```
- git clone 
+pipenv three
+pipenv shell
+pip3 install -r requirements.txt
+streamlit run kidney_app.py
  ```
  
  
