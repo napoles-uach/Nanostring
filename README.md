@@ -18,7 +18,7 @@ pip3 install -r requirements.txt
 streamlit run kidney_app.py
  ```
  
- (Optionally before this you can create a virtual environment)
+ (Optionally before this you can create a virtual environment... How? just before the above instructions type `pipenv shell` and `pipenv --three`)
 
 
 
