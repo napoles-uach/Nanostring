@@ -12,7 +12,7 @@ or
 
 Just download as a Zip file the whole project in the green button (with the leyend "Code") at the top of this page. As the code works with a large set of images, this would be a large file (about 1.7 Gb), so be patient.  
 
-Once you have downloaded and uncompressed the ZIP file, go to your terminal and type
+Once you have downloaded and uncompressed the ZIP file, go to your terminal, change directory (cd) to the main folder where the code is and type
 ```
 pip3 install -r requirements.txt
 streamlit run kidney_app.py
