@@ -24,8 +24,8 @@ streamlit run kidney_app.py
 
 Besides this, the code is in the following two files:
 
- * [kidney_app.py](https://raw.githubusercontent.com/napoles-uach/Nanostring/main/kidney_app.py)
- * [utils.py](https://raw.githubusercontent.com/napoles-uach/Nanostring/main/utils.py)
+ * [kidney_app.py](https://github.com/napoles-uach/Nanostring/blob/main/kidney_app.py)
+ * [utils.py](https://github.com/napoles-uach/Nanostring/blob/main/utils.py)
 
 and uses python libraries in the requirements file:
 
