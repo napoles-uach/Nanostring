@@ -14,11 +14,12 @@ If you are not familiar with github, just download as a Zip file the whole proje
 
 Once you have downloaded and uncompressed the ZIP file, go to your terminal and type
 ```
-pipenv three
-pipenv shell
 pip3 install -r requirements.txt
 streamlit run kidney_app.py
  ```
+ 
+ (Optionally before this you can create a virtual environment)
+
 
 
 Besides this, the code is in the following two files:
