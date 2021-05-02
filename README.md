@@ -9,7 +9,10 @@
 
 or 
 
-Download 
+If you are not familiar with github, just download as a Zip file the whole project in the green button (with the leyend "Code"). As the code works with a large set of images, this would be a large file (more than 1 Gb), so be patient.  
+
+
+
 
  * [kidney_app.py](https://raw.githubusercontent.com/napoles-uach/Nanostring/main/kidney_app.py)
  * [utils.py](https://raw.githubusercontent.com/napoles-uach/Nanostring/main/utils.py)
