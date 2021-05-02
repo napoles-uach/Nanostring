@@ -5,11 +5,12 @@
  
  ## How to run this?
  Try the badge 
+ 
  [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/napoles-uach/nanostring/main/kidney_app.py)
 
 or 
 
-If you are not familiar with github, just download as a Zip file the whole project in the green button (with the leyend "Code") at the top of this page. As the code works with a large set of images, this would be a large file (more than 1 Gb), so be patient.  
+If you are not familiar with github, just download as a Zip file the whole project in the green button (with the leyend "Code") at the top of this page. As the code works with a large set of images, this would be a large file (about 1.7 Gb), so be patient.  
 
 Besides this, the code is in the following two files:
 
