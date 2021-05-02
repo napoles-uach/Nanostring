@@ -40,7 +40,7 @@ You will find in the same folder where the above files are stored the following 
 * [Kidney_Sample_Annotations.csv](https://raw.githubusercontent.com/napoles-uach/Nanostring/main/Kidney_Sample_Annotations.csv)
 * [Kidney_Q3Norm_TargetCountMatrix.csv](https://raw.githubusercontent.com/napoles-uach/Nanostring/main/Kidney_Q3Norm_TargetCountMatrix.csv)
 
-and the ROI folder. Be careful. The order of the files in the ROI folder is important so please don't modify it!!
+and the [ROI](https://github.com/napoles-uach/Nanostring/tree/main/ROI%20reports) folder. Be careful. The order of the files in the ROI folder is important so please don't modify it!!
 
 
 
