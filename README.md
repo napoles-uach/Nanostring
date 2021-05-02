@@ -20,7 +20,7 @@ pip install -r requirements.txt
 streamlit run kidney_app.py
  ```
  
-The first two lines will create a safe virtual environment that you can just exit when you finish. The third line installs the dependencies like streamlit, plotly, pandas, etc. and the last line executed the code and displays the web app on your browser. If for any reason it doesn't open, copy the address http://localhost:8501 and paste on your prefered web browser (recomended firefox!!)
+The first two lines will create a safe virtual environment that you can just exit when you finish. The third line installs the dependencies like streamlit, plotly, pandas, etc. and the last line executes the code and displays the web app on your browser. If for any reason it doesn't open, copy the address http://localhost:8501 and paste on your prefered web browser (recomended firefox!!)
 
 
 
