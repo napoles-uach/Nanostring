@@ -9,7 +9,7 @@
 
 or 
 
-If you are not familiar with github, just download as a Zip file the whole project in the green button (with the leyend "Code"). As the code works with a large set of images, this would be a large file (more than 1 Gb), so be patient.  
+If you are not familiar with github, just download as a Zip file the whole project in the green button (with the leyend "Code") at the top of this page. As the code works with a large set of images, this would be a large file (more than 1 Gb), so be patient.  
 
 
 
