@@ -14,11 +14,13 @@ Just download as a Zip file the whole project in the green button (with the leye
 
 Once you have downloaded and uncompressed the ZIP file, go to your terminal, change directory (cd) to the "Nanostring-main" folder where the code is and type
 ```
-pip3 install -r requirements.txt
+pipenv --three
+pipenv shell
+pip install -r requirements.txt
 streamlit run kidney_app.py
  ```
  
- (Optionally before this you can create a virtual environment... How? just before the above instructions type `pipenv shell` and `pipenv --three`)
+The first two lines will create a safe virtual environment that you can just exit when you finish. The third line installs the dependencies like streamlit, plotly, pandas, etc. and the last line executed the code and displays the web app on your browser. If for any reason it doesn't open, copy the address http://localhost:8501 and paste on your prefered web browser (recomended firefox!!)
 
 
 
