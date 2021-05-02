@@ -9,7 +9,8 @@
 
 or 
 
- download the files:
+Download 
+
  * [kidney_app.py](https://raw.githubusercontent.com/napoles-uach/Nanostring/main/kidney_app.py)
  * [utils.py](https://raw.githubusercontent.com/napoles-uach/Nanostring/main/utils.py)
  * [requirements.txt](https://raw.githubusercontent.com/napoles-uach/Nanostring/main/requirements.txt)
